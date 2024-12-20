@@ -193,7 +193,7 @@ const App = () => {
         {/* Center: Social Buttons */}
         <div className="w-1/3 flex justify-center gap-3">
           <SocialButton
-            href="https://twitter.com"
+            href="https://x.com/Wishmasdotfun"
             icon={TwitterIcon}
             label="Twitter"
           />
