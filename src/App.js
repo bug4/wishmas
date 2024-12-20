@@ -29,12 +29,12 @@ const InfoBox = () => (
 );
 
 const LoadingScreen = () => {
-  const [loadingText, setLoadingText] = useState('Loading Santa AI...');
+  const [loadingText, setLoadingText] = useState('Loading Santo AI...');
   
   useEffect(() => {
     const texts = [
-      'Loading Santa AI...',
-      'Loading Santa\'s Humor...',
+      'Loading Santo AI...',
+      'Loading Santo\'s Humor...',
       'System ready...'
     ];
     let currentIndex = 0;
@@ -75,7 +75,7 @@ const HoldersCounter = () => {
   const [retryCount, setRetryCount] = useState(0);
   
   // Replace these with your actual values
-  const TOKEN_ADDRESS = "476CnV1fnWe2EkqNzknnqgPnSvTcynFEUWTHBfpcpump";
+  const TOKEN_ADDRESS = "pump";
   const HELIUS_RPC = "https://mainnet.helius-rpc.com/?api-key=YOUR_API_KEY";
 
   useEffect(() => {
@@ -183,22 +183,22 @@ const App = () => {
 
       {/* Navigation Elements */}
       <div className="absolute top-0 left-0 w-full px-6 py-4 flex items-center z-10">
-        {/* Left: WISHMAS Text */}
+        {/* Left: Santo Text */}
         <div className="w-1/3 pl-10 pt-10">
           <h1 className="text-8xl font-bold text-white font-christmas filter drop-shadow-[0_0_8px_rgba(255,255,255,0.7)] transition-all duration-300">
-            WISHMAS
+            Santo
           </h1>
         </div>
 
         {/* Center: Social Buttons */}
         <div className="w-1/3 flex justify-center gap-3">
           <SocialButton
-            href="https://x.com/Wishmasdotfun"
+            href="https://x.com/Santodotfun"
             icon={TwitterIcon}
             label="Twitter"
           />
           <SocialButton
-            href="https://pump.fun/coin/476CnV1fnWe2EkqNzknnqgPnSvTcynFEUWTHBfpcpump"
+            href="https://pump.fun/coin/"
             icon={BarChart2}
             label="Chart"
           />
@@ -207,7 +207,7 @@ const App = () => {
         {/* Right: Buy Button */}
         <div className="w-1/3 flex justify-end">
           <a 
-            href="https://pump.fun/coin/476CnV1fnWe2EkqNzknnqgPnSvTcynFEUWTHBfpcpump" 
+            href="https://pump.fun/coin/" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="bg-white bg-opacity-10 backdrop-blur-md border border-white border-opacity-20 text-white font-bold py-2 px-6 hover:bg-opacity-20 transition-all duration-300 text-lg"
