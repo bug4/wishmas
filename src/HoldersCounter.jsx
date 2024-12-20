@@ -9,7 +9,7 @@ const HoldersCounter = () => {
   const [retryCount, setRetryCount] = useState(0);
   
   // Replace these with your actual values
-  const TOKEN_ADDRESS = "3du2MT8faDaaQv4YUA1Zo3NbeYoeWg4KT4jSLXhppump";
+  const TOKEN_ADDRESS = "";
   const HELIUS_RPC = "https://mainnet.helius-rpc.com/?api-key=c6707fb2-9d2b-49d4-9421-fdcd4a01a5c7";
 
   useEffect(() => {
