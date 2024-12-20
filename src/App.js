@@ -8,7 +8,7 @@ const InfoBox = () => (
   <div className="fixed right-6 top-1/2 transform -translate-y-1/2 z-20">
     <div className="bg-white bg-opacity-10 backdrop-blur-md border border-white border-opacity-20 p-6">
       <h3 className="text-2xl font-bold text-white mb-4">
-        Before talking to Santa:
+        Before making a wish:
       </h3>
       <ul className="text-white space-y-3 text-lg">
         <li className="flex items-start">
@@ -145,7 +145,7 @@ const HoldersCounter = () => {
           )}
         </div>
         <div className="text-sm text-white text-opacity-80 mt-2">
-          Live data via Helius
+          Live data via Pump.fun
         </div>
       </div>
     </div>
