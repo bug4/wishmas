@@ -75,7 +75,7 @@ const HoldersCounter = () => {
   const [retryCount, setRetryCount] = useState(0);
   
   // Replace these with your actual values
-  const TOKEN_ADDRESS = "YOUR_TOKEN_ADDRESS";
+  const TOKEN_ADDRESS = "476CnV1fnWe2EkqNzknnqgPnSvTcynFEUWTHBfpcpump";
   const HELIUS_RPC = "https://mainnet.helius-rpc.com/?api-key=YOUR_API_KEY";
 
   useEffect(() => {
@@ -198,7 +198,7 @@ const App = () => {
             label="Twitter"
           />
           <SocialButton
-            href="https://pump.fun"
+            href="https://pump.fun/coin/476CnV1fnWe2EkqNzknnqgPnSvTcynFEUWTHBfpcpump"
             icon={BarChart2}
             label="Chart"
           />
@@ -207,7 +207,7 @@ const App = () => {
         {/* Right: Buy Button */}
         <div className="w-1/3 flex justify-end">
           <a 
-            href="https://pump.fun" 
+            href="https://pump.fun/coin/476CnV1fnWe2EkqNzknnqgPnSvTcynFEUWTHBfpcpump" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="bg-white bg-opacity-10 backdrop-blur-md border border-white border-opacity-20 text-white font-bold py-2 px-6 hover:bg-opacity-20 transition-all duration-300 text-lg"
